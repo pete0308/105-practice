@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: ##000000;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 591px;
+    float: left;
+    background: #e7dfdd;
+    height: 500px;
+
+}
+
+/**** HEADER *****/
+header {
+    background: #0E0b16;
+    height: 100px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: #4717f6;
+    float: right;
+    margin: 30px 25px 25px 0px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    padding: 25px;
+}
+
+h1 span {
+    color: #4717f6;
+}
+
+/******* ADVICE *****/
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+    line-height: 30px;
+    padding: 0px 25px 0px 25px;
+}
+
+#advice-1 {
+    padding-right: 15px;
+}
+
+#advice-2 {
+    border-left: 2px solid white;
+}
+
+#quote{
+    font-style: italic;
+}
+
+/***** FOOTER *****/
+
+footer {
+    clear: both;
+    background: #0E0b16;
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 35px;
+}
